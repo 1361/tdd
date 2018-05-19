@@ -65,13 +65,7 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Beef Listing #1</div>
-        <div class="panel-body">
-            {% comment %}<table id="id_list_table">
-                {% for item in beef.item_set.all %}
-		            <tr><td>{{  forloop.counter }}: {{ item.text }}</td></tr>
-                {% endfor %}
-	        </table>{% endcomment %}
-        </div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">Date and Price</div>
       </div>
     </div>
@@ -132,7 +126,7 @@
 
 
 
-
+{% comment %}
 <html>
     <head>
         <title>To-Do lists</title>
@@ -151,4 +145,4 @@
 	</table>
     </body>
 </html>
-
+{% endcomment %}

@@ -21,6 +21,9 @@ from lists import urls as list_urls
 urlpatterns = [
     #    url(r'^admin/', include(admin.site.urls)),
     url(r'^$', list_views.home_page, name='home'),
+    url(r'^contact', list_views.contact_page, name='contact_page'),
+    url(r'^listbeef', list_views.listbeef_page, name='listbeef_page'),
+    url(r'^purchasebeef', list_views.purchasebeef_page, name='purchasebeef_page'),
     url(r'^lists/', include(list_urls)),
 
 ]

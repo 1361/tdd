@@ -50,7 +50,7 @@
         <li class="active"><a href="/">Home</a></li>
         <li><a href="purchasebeef/">Purchase Beef</a></li>
         <li><a href="listbeef/">List Beef</a></li>
-        <li><a href="contact/">Contact</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
@@ -60,70 +60,17 @@
   </div>
 </nav>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">Beef Listing #1</div>
-        <div class="panel-body">
-            {% comment %}<table id="id_list_table">
-                {% for item in beef.item_set.all %}
-		            <tr><td>{{  forloop.counter }}: {{ item.text }}</td></tr>
-                {% endfor %}
-	        </table>{% endcomment %}
-        </div>
-        <div class="panel-footer">Date and Price</div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">Beef Listing #2</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Date and Price</div>      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">Beef Listing #3</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Date and Price</div>
-      </div>
-    </div>
-  </div>
-</div><br>
 
-<div class="container">
   <div class="row">
-    <div class="col-sm-4">
       <div class="panel panel-primary">
-        <div class="panel-heading">Beef Listing #4</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Date and Price</div>
+        <div class="panel-heading">Contact Info</div>
+        <div class="panel-footer">Email: beefplace@outlook.com</div>
+        <div class="panel-footer">Phone: 1-800-445-4444</div>
       </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">Beef Listing #5</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Date and Price</div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">Beef Listing #6</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Date and Price</div>
-      </div>
-    </div>
   </div>
-</div><br><br>
 
-<footer class="container-fluid text-center">
-  <p>Have Questions? Email us!t</p>
-  <form class="form-inline">
-    <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-danger">Submit</button>
-  </form>
-</footer>
+
+
 
 </body>
 </html>
@@ -132,7 +79,7 @@
 
 
 
-
+{% comment %}
 <html>
     <head>
         <title>To-Do lists</title>
@@ -151,4 +98,4 @@
 	</table>
     </body>
 </html>
-
+{% endcomment %}
